@@ -17,3 +17,23 @@
 .main-content {
   max-width: 48rem;
 }
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+#header > nav > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#header > nav > ul > li {
+  padding: 2px 14px;
+  border-right: solid 1px #ed6851;
+}
+
+#header > nav > ul > li > a {
+  color: #ed6851;
+  text-decoration: none;
+}
