@@ -33,7 +33,23 @@
   border-right: solid 1px #ed6851;
 }
 
+a {
+  color: #ed6851;
+}
+
 #header > nav > ul > li > a {
   color: #ed6851;
   text-decoration: none;
+}
+
+.post-list {
+}
+
+.post-list > .post-item {
+  display: flex;
+  align-items: center;
+}
+
+.post-list > .post-item > .date {
+  margin-right: 15px;
 }
