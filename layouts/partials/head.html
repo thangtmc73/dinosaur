@@ -1,0 +1,10 @@
+<head>
+  <meta charset="utf-8">
+  <title>
+    {{ block "title" . }}
+    {{ .Site.Title }}
+    {{ end }}
+  </title>
+  {{ $themeCSS := "css/theme-light.css" }}
+  <link rel="stylesheet" href="{{ $themeCSS | absURL }}" type="text/css" />
+</head>
