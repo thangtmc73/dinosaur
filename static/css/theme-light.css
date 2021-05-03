@@ -41,6 +41,10 @@ a {
   color: #ed6851;
 }
 
+a:visited {
+  color: #ed6851;
+}
+
 #header > nav > ul > li > a {
   color: #ed6851;
   text-decoration: none;
