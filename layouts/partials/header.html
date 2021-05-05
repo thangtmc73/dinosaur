@@ -1,10 +1,15 @@
 <header id="header">
-  <h1>{{ .Site.Title }}</h1>
-  <nav>
-    <ul>
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
-  </nav>
+  <div class="left-view">
+    <h1>{{ .Site.Title }}</h1>
+    <nav id="top-nav">
+      <ul>
+        <li class="icon"><i class="fas fa-bars"></i></li>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+
+    </nav>
+  </div>
+
 </header>
