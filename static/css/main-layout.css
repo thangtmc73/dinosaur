@@ -47,4 +47,14 @@
     right: 0;
     border-right: none;
   }
+
+  #header > .left-view > #top-nav.responsive > ul > li {
+    display: block;
+    border-right: none;
+  }
+
+  #header > .left-view > #top-nav.responsive > ul {
+    flex-direction: column;
+    display: block;
+  }
 }
